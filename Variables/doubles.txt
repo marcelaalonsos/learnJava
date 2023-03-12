@@ -1,0 +1,8 @@
+doubles
+
+The double primitive data type can hold decimals as well as very large and very small numbers.
+To declare a variable of type double, we use the double keyword in the declaration:
+// doubles can have decimal places:
+double price = 8.99;
+// doubles can have values bigger than what an int could hold:
+double gdp = 12237700000;

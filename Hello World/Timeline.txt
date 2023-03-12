@@ -1,0 +1,19 @@
+Commenting Code
+
+// when using single-line syntax
+/* */ multi-line syntax
+
+/** */ Javadoc comments are used to create documentation for APIs.
+They will eventually be used in the documentation your users might read, so make sure to be thoughtful when writing these comments.
+Javadoc comments are typically written before the declaration of fields. methods and classes.
+example:
+/**
+* The following class shows what a comment would look like in a program.
+*/
+public class CommentExample {
+  // I'm a comment inside the class
+  public static void main(String[] args) {
+    // I'm a comment inside a method
+    System.out.println("This program has comments!");
+  }
+}

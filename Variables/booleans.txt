@@ -1,0 +1,5 @@
+booleans
+
+We declare boolean variables by using the keyword boolean before the variable name:
+boolean javaIsACompiledLanguage = true;
+boolean javaIsACupOfCoffee = false;

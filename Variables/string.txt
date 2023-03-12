@@ -1,0 +1,38 @@
+String
+
+String hold sequences of characters.
+String is an object, with built-in behaviors.
+
+There are 2 ways to create a String object:
+- using a string literal, or
+- calling the string class to create a new string object
+
+A String literal is any sequence of characters enclosed in double-quotes "".
+We declare a String variable by specifying that type first:
+String greeting = "Hello World";
+
+We can also create a new String object by calling the string class when declaring a string:
+String salutations = new String("Hello World");
+
+Escape sequences
+- are interpreted differently by the compiler than other characters
+- begin with the character \
+
+There are 3 escape sequences to be aware of:
+1. The \ escape sequence allows to add quotation marks to a String value:
+System.out.println("\"Hello World\"");
+// Prints: "Hello World"
+if we didn't use an escape sequence, java would think we're using " to end the string
+
+2. Using the \\ escape sequence allows us to place backslashes in our string text:
+System.out.println("This is the backslash symbol: \\");
+// Prints: This is the backslash symbol: \
+
+3. if we place \n escape sequence in a string, the compiler will output a new line of text:
+System.out.println("Hello\nGoodbye");
+/*
+Prints:
+Hello
+Goodbye
+*/
+you can think of \n as the escape sequence for "new line"

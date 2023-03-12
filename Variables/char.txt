@@ -1,0 +1,8 @@
+char
+
+The char dtaa type can hols any character, like a letter, space, or punctuation mark.
+It must be surrounded by single quotes ''
+for example:
+char grade = 'A';
+char firstLetter = 'p';
+char punctuation = '!';

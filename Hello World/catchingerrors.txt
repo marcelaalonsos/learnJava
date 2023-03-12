@@ -1,0 +1,46 @@
+Compilation: Catching errors
+
+Java is a compiled programming language, meaning the code we write in  .java file is transformed into byte code by a compiler before it is executed by the java virtual machine on your computer.
+
+A compiler is a program that translates human-friendly programming languages into other programming languages that computers can execute.
+The compiling process catches mistakes before the computer runs our code.
+For example, with a file called Plankton.java, we could compile it with the terminal command:
+
+javac Plankton.java
+
+A successful compilation produces a .class file: Plankton.class, that we execute with the terminal command:
+
+java Plankton
+
+An unsuccessful compilation produces a list of errors. No .class file is made until the errors are corrected and the compile command is run again.
+
+Compilation: Creating Executables
+If the file compiles successfully, this command produces and executable class: FileName.class.
+Executable means we can run this program from the terminal.
+
+We run the executable with the command:
+java FileName
+
+Here’s a full compilation cycle as an example:
+
+// within the file: Welcome.java
+public class Welcome {
+  public static void main(String[] args) {
+    System.out.println("Welcome to Codecademy's Java course!");
+  }
+}
+We have one file: Welcome.java. We compile with the command:
+
+javac Welcome.java
+The terminal shows no errors, which indicates a successful compilation.
+
+We now have two files:
+
+Welcome.java, our original file with Java syntax.
+Welcome.class, our compiled file with Java bytecode, ready to be executed by the Java Virtual Machine.
+We can execute the compiled class with the command:
+
+java Welcome
+The following is printed to the screen:
+
+Welcome to Codecademy's Java course!

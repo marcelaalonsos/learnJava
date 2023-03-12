@@ -1,0 +1,12 @@
+ints
+
+In Java, whole numbers are stored in the int primitive data type
+int hold positive, negative and zero. they do not store fractions or decimals
+
+To declare a variable of type int, we use the int keyword before the variable name:
+// int variable declaration
+int yearJavaWasCreated;
+// assignment
+yearJavaWasCreated = 1996;
+// declaration and assignment
+int numberOfPrimitiveTypes = 8;

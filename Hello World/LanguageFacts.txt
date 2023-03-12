@@ -1,0 +1,16 @@
+Semicolons and Whitespace
+
+Java does not interpret whitespace, the areas of code without syntax, but humans use whitespace to read code wihtout difficulty.
+Functionally these two code samples are identical:
+
+System.out.println("Java");System.out.println("Lava");System.out.println("Guava");
+System.out.println("Java");
+
+System.out.println("Lava");
+
+System.out.println("Guava");
+
+They will print the same text to the screen.
+Java DOES interpret semicolons. Semicolons are used to mark the end of an statement, one of code that performs a single task.
+There are no semicolons at the end of a curly brace.
+

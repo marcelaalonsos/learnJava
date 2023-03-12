@@ -1,0 +1,20 @@
+Naming
+
+Naming variables according to convention leads to clear, readable and maintable code.
+In Java, variable names are case-sensitive. myHeight is a different variable from myheight.
+A variable starts with a valid letter, or a $ or _
+No other symbols or numbers can begin a variable name
+
+1. variable names of only one work are spelled in all lowercase letters
+2. variable names of more than one word are camelCase
+
+// good style
+boolean isHuman;
+
+// bad styles
+// no capitalization for new word
+boolean ishuman;
+// first word should be lowercase
+boolean IsHuman;
+// underscores don't separate words
+boolean is_human;

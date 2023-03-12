@@ -1,0 +1,9 @@
+Print Statements
+
+Print statements output information to the screen.
+System is a built-in Java class that contains useful tools for our programs
+out is short for output
+println is short for print line
+
+We can use System.out.println() whenever we want the program to create a new line on the screen after outputting a value.
+We can also output information using System.out.print(). this will print everything on the same line.

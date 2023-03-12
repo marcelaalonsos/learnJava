@@ -1,0 +1,18 @@
+Introduction: Variables
+
+In Java, we specify the type of information we're storing.
+Primitive data types are types of data built-in to the Java System.
+The 3 main primitive types: int, double, and boolean
+We must declare a variable to reference it within our program. Declaring a variable requires that we specify the type and name:
+// datatype variableName
+int age;
+double salaryRequirement;
+boolean isEmployed;
+
+To assign a value to a variable, we use the assignment operator =
+age = 85
+
+When code is used to represent a fixed value, like 85, it is referred to as a literal.
+It's also common to declare a variable and assign it a value in one line.
+int yearCodecademyWasFounded = 2011;
+

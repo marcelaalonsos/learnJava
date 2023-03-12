@@ -1,0 +1,22 @@
+Think of classes in java as a single concept.
+The HelloWorld concept is: Hello World Printer.
+We marked the domain on this concept using {}. The syntax inside the curly braces is part of the class.
+Each file has one primary class named after the file. Our class name: HelloWorld. every word is capitalized.
+Inside the class we have a main() method, which lists our program tasks:
+
+public class HelloYou {
+  public static void main(String[] args) {
+    System.out.println("Hello Marcela!");
+
+  }
+}
+
+Like classes, we use {} to mark the begining and end of a method.
+public, static, and void are syntax
+String[] args is a placeholder for information we want to pass into our program.
+Our program also displays the text "Hello World" on the screen. Using a print statement:
+System.out.println("Hello World");
+
+*message should be in double quotes
+*println has the letter l as in laser
+*end statement with semicolon
