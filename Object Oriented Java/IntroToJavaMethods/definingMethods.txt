@@ -1,0 +1,17 @@
+Defining Methods
+
+If we were to define a checkBalance() method for the savings account example:
+public void checkBalance(){
+  System.out.println("Hello!");
+  System.out.println("Your balance is " + balance);
+}
+
+The first line, public void checkBalance() is the method declaration. it gives the program some information about the method:
+- public means that other classes can access this method.
+- the void keyword means that there is no specific output from the method
+- checkBalance() is the name of the method
+
+Every method has its own unique method signature which is comprised of the method's name and its parameter type.
+The 2 print statements are inside the body of the method, which is define by {}
+
+*checkBalance() is considered a non-static method because its signature does not include the keyword static like the main() method does.

@@ -1,0 +1,5 @@
+Introduction
+
+Methods are repeatable, modular blocks of code used to accomplish specific tasks.
+We have the ability to define our own methods that will take input, do something with it, and return the kind of output we want.
+Procedural abstraction: knowing what a method does, but not how it accomplishes it.
