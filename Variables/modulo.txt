@@ -1,0 +1,18 @@
+MODULO
+
+The modulo operator % gives us the remainder after 2 numbers are divided:
+int cookiesBaked = 10;
+int cookiesLeftover = 10 % 3;
+//cookiesLeftover holds 1
+
+Modulo can help determine whether a number is even or odd.
+Dividing an even number by 2 will have a remainder of 0.
+Dividing an odd number by 2 will have a remainder of 1.
+
+7 % 2
+// 1, odd!
+8 % 2
+// 0, even!
+9 % 2
+// 1, odd!
+

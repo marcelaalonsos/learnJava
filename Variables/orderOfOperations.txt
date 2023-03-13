@@ -1,0 +1,9 @@
+Order of Operations
+
+The order of oeprations dictates the order in which an expression is evaluated. Operators that share the same precedence are evaluated from left-to-right within the expression.
+
+The order is as follows:
+1. parenthesis
+2. exponents
+3. modulo/multiplication/division
+4. addition/susbtraction

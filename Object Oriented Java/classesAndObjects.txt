@@ -1,0 +1,20 @@
+What are classes and Objects?
+
+Class
+A class is a specification of a new data type.
+We can define the attributes and functionality in the class.
+The inidivual attributes are strings, numbers, and booleans
+
+example:
+Student class:
+name - string
+gpa - number
+year - string
+hasScholarship - boolean
+
+we can create functions inside the class
+hasHonors()
+giveScholarship()
+
+OBJECTS
+To create a new instance of the class, we need to create an object

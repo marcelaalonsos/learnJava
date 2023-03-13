@@ -1,0 +1,12 @@
+Manipulating Variables Introduction
+
+Java has built-in arithmetic operarations that perform calculations on numeric values:
+// declare initial balance
+double balance = 20000.99;
+// declare deposit amount
+double depositAmount = 1000.00;
+// store result of calculation in our original variable
+balance = balance + depositAmount;
+
+When an expression is executed, it produces a single value
+The data types of an expression is determined by the resulting value. For examples, an expression that uses 2 int values will evaluate to an int value. If an expression contains a double value, then the resulting value will also be type double.

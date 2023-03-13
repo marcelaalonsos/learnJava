@@ -1,0 +1,16 @@
+Equals and Not Equals
+
+We can use another relational operator == to tell if two variables are equal:
+double paycheckAmount = 620;
+double calculatedPaycheck = 15.50 * 40;
+
+System.out.print(paycheckAmount == calculatedPaycheck);
+// This will print true, since paycheckAmount equals calculatedPaycheck
+
+To check if 2 variables are not equal, we can use !=:
+double balance = 20000.0;
+double amountToDeposit = 620;
+double updatedBalance = balance + amountToDeposit;
+
+boolean balanceHasChanged = balance != updatedBalance;
+// balanceHasChanged holds true, since balance does not equal updatedBalance

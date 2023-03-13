@@ -1,0 +1,12 @@
+Multiplication and Division
+
+Division has different results with integers. The / operator does integer division, which means that any remainder is lost:
+int evenlyDivided = 10 / 5;
+//evenlyDivided holds 2, because 10 divided by 5 is 2
+int unevenlyDivided = 10 / 4;
+//unevenlyDivided holds 2, because 10 divided by 4 is 2.5
+
+int cannot store decimals
+int does not round the decimal, but floors int
+If we try to divide any number by 0, we will get an ArithmeticException error as a result
+

@@ -1,0 +1,12 @@
+Compound Assigment Operators
+
+Compound assigment operators perform an arithmetic operation on a variable and then reassigns its value. Using the += compound assigment operator, it adds and reassigns the variable's value:
+int numCupcakes = 12;
+numCupcakes += 8; // Value is now 20
+
+we can use compound assigment operators for all the arithmetic operators:
+addition +=
+susbtraction -=
+multiplication *=
+division /=
+modulo %=

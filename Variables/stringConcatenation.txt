@@ -1,0 +1,16 @@
+String Concatenation
+
+The + operator can be used to concatenate String. In other words, we can use it to join 2 strings together.
+String username = "PrinceNelson";
+System.out.println("Your username is: " + username);
+
+The code will print:
+Your username is: PrinceNelson
+
+We can use a primitve datatype as the second variable to concatenate, and Java will intelligently make it a string first:
+int balance = 10000;
+String message = "Your balance is: " + balance;
+System.out.println(message);
+
+the code will print:
+Your balance is: 10000
