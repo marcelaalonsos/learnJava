@@ -1,0 +1,55 @@
+Classes: Constructor Parameters
+
+To create objects with dynamic, individual states, we'll use a combination of the constructor method and instance fields.
+In order to assign a value to an instance variable, we need to alter our constructor method to include parameters so that it can access the data we want to an instance.
+The Car constructor now has a parameter: String carColor:
+
+public class Car {
+  String color;
+  // constructor method with a parameter
+  public Car(String carColor) {
+    // parameter value assigned to the field
+    color = carColor;
+  }
+  public static void main(String[] args) {
+    // program tasks
+  }
+}
+
+When a String value gets passed into Car(), it is assigned to the parameter carColor. Then, inside the constructor, carColor will be assigned as the value to the instance variable color.
+Our method also has a signature which defines the name and parameters of the method. In the above example, the signature is Car(String carColor).
+
+*There are 2 types of parameters: formal and actual.
+A formal parameter specifies the type and name of data that can be passed into a method.
+In the example above, String carColor is a formal parameter; carColor will represent whatever string value is passed into the constructor.
+
+In Java, because of constructor overlaoding, a class can have multiple constru as long as they have different parameter values. The signature is useful in that it helps the compiler differentiate between different methods:
+public class Car {
+  String color;
+  int mpg;
+  boolean isElectric;
+
+  // constructor 1
+  public Car(String carColor, int milesPerGallon) {
+    color = carColor;
+    mpg = milesPerGallon;
+  }
+  // constructor 2
+  public Car(boolean electricCar, int milesPerGallon) {
+    isElectric = electricCar;
+    mpg = milesPerGallon;
+  }
+}
+
+In the example above, there are 2 constructors. When we initialize an object, the compiler will know which constructor to use because of the values we pass into it. For example, Car myCar = new Car(true, 40) will be created by the second constructor because the arguments match the type and order of the second constructor's signature.
+If we do not define a constructor, the Java compiler will generate a default constructor that containsno arguments and assigns the object default values. Default values can be created by assigning values to the instance fields during their declaration.
+public class Car {
+  String color = "red";
+  boolean isElectric = false;
+  int cupHolders = 4;
+
+  public static void main(String[] args) {
+    Car myCar = new Car();
+    System.out.println(myCar.color); // Prints: red
+  }
+}

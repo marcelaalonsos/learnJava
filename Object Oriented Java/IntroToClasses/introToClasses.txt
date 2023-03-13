@@ -1,0 +1,4 @@
+Introduction to classes
+
+Classes are the blueprint for objects. Blueprints detail the general structure.
+An instance is the thing itself.
