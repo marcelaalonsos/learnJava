@@ -1,0 +1,39 @@
+Adding an Item
+
+ArrayList comes with an add() method which inserts an item into the structure.
+There are two ways we can use add():
+1. if we want to add an element to the end of the ArrayList, we'll call add() using only one argument that represents the value we're inserting:
+ArrayList<Car> carShow = new ArrayList<Car>();
+carShow.add(ferrari);
+// carShow now holds [ferrari]
+carShow.add(thunderbird);
+// carShow now holds [ferrari, thunderbird]
+carShow.add(volkswagen);
+// carShow now holds [ferrari, thunderbird, volkswagen]
+
+2. If we want to add an element at a specific index of our ArrayList, we'll need two arguments in our method call:
+- first, will define the index of the new element
+- second, defines the value of the new element
+// Insert object corvette at index 1
+carShow.add(1, corvette);
+// carShow now holds [ferrari, corvette, thunderbird, volkswagen]
+
+// Insert object porsche at index 2
+carShow.add(2, porsche);
+// carShow now holds [ferrari, corvette, porsche, thunderbird, volkswagen]
+
+By inserting a value at a specific index, any elements that after this new element will have their index value shift by 1.
+Also note, that an error will occur if we try to insert a value at an index that does not exist.
+
+*While using ArrayList methods like add(), the reference parameters and return type of a method must match the declared element type of the ArrayList. For example, we cannot add an integer type value to an ArrayList of String elements.
+
+We've discussed how to specify the element type of an ArrayList; however, it is possible to create an ArrayList that holds values of different types.
+
+ArrayList assortment = new ArrayList<>();
+assortment.add("Hello"); // String
+assortment.add(12); // Integer
+assortment.add(ferrari); // reference to Car
+// assortment holds ["Hello", 12, ferrari]
+
+In this case, the items stored in this ArrayList will be considered objects.
+They won't have access to some of their methods without doing some fancy casting.

@@ -1,1 +1,17 @@
 Introduction
+
+When we work with arrays in Java, we've been limited by the fact that once an array is created, it has a fixed size.
+We can't add or remove elements.
+
+To create mutable and dynamic lists, we can use Java's ArrayList class.
+ArrayList allows us to:
+- Store object references as elements
+- Store elements of the same type
+- Access elements by index
+- Add elements
+- Remove elements
+
+To use an ArrayList we need to import them from Java's util package:
+import java.util.ArrayList;
+
+

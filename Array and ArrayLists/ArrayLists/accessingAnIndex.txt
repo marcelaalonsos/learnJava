@@ -1,0 +1,13 @@
+Accessing an index
+
+For ArrayList bracket notation won't work.
+instead, we use the method get() to access an index:
+ArrayList<String> shoppingCart = new ArrayList<String>();
+
+shoppingCart.add("Trench Coat");
+shoppingCart.add("Tweed Houndstooth Hat");
+shoppingCart.add("Magnifying Glass");
+
+System.out.println(shoppingCart.get(2));
+
+This code prints "Magnifying Glass", which is the value at index 2 of the ArrayList.

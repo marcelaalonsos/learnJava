@@ -1,0 +1,5 @@
+Getting an Item's Index
+
+// detectives holds ["Holmes", "Poirot", "Marple", "Spade", "Fletcher", "Conan", "Ramotswe"];
+System.out.println(detectives.indexOf("Fletcher"));
+This code would print 4, since "Fletcher" is at index 4 of the detectives ArrayList.
