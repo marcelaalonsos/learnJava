@@ -1,0 +1,11 @@
+Creating an Array Explicitly
+
+To create an array, we provide a name and declare the type of data that it holds:
+double[] prices;
+
+Just like with variables, we can declare and initialize in the same line.
+This allows us to Explicitly initialize the array to contain the data we want to store:
+double[] prices = {13.15, 15.87, 14.22, 16.66};
+
+We can use arrays to hold String and other objects as well as primitives:
+String[] clothingItems = {"Tank Top", "Beanie", "Funny Socks", "Corduroys"};

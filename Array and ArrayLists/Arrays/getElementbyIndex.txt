@@ -1,0 +1,19 @@
+Get Element by index
+
+We use square brackets [] to access data at a certain index:
+We use square brackets, [ and ], to access data at a certain index:
+
+double[] prices = {13.1, 15.87, 14.22, 16.66};
+
+System.out.println(prices[1]);
+This command would print:
+
+15.87
+
+This happens because 15.87 is the item at the 1 index of the array.
+The index of an Array starts at 0 and ends at an index of one less than the number of elements in the array.
+If we try to access an element outside of its appropiate index range, we will receive an ArrayIndexOutOfBoundsException error
+
+For example, if we were to run the command System.out.println(prices[5]), we’d get the following output:
+
+java.lang.ArrayIndexOutOfBoundsException: 5

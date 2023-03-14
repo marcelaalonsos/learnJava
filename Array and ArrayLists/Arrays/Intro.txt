@@ -1,1 +1,7 @@
 Introduction
+
+An array holds a fixed number of values of one type.
+Arrays hold double, int, boolean, and any other primitive types.
+Arrays can also contain String, as well as object references.
+
+Each index of an array corresponds with a different value.

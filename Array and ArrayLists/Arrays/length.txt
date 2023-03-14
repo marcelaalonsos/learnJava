@@ -1,0 +1,14 @@
+Length
+
+To get the Length of an array, we can access the length field of the array object:
+String[] menuItems = new String[5];
+System.out.println(menuItems.length);
+
+This command will print 5, since the menuItems array has 5 slots
+
+If we print out the length of the prices array:
+
+double[] prices = {13.1, 15.87, 14.22, 16.66};
+
+System.out.println(prices.length);
+We would see 4, since there are four items in the prices array!
