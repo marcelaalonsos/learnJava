@@ -1,0 +1,15 @@
+Conditional And: &&
+
+The AND operator && is used between two boolean values and evaltuates to a single boolean value.
+If the values on both sides are true, then the resting value is true, otherwise the resulting value is false.
+
+This code illustrates every combination:
+
+true && true
+// true
+false && true
+// false
+true && false
+// false
+false && false
+// false

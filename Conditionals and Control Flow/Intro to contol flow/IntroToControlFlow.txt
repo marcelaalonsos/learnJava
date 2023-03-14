@@ -1,0 +1,22 @@
+Introduction to Control Flow
+
+We represent decision making in our program using conditional or control flow statements. Before this point, our code runs line-by-line from the top down, but conditional statements allow us to be selective in which portions will run.
+
+Conditional statements check a boolean condition and run a block of code depending on the condition. {} mark the scope of a conditional block similar to a method or class.
+
+if (true) {
+
+  System.out.println("Hello World!");
+
+}
+
+If the condition is true, then the block will run.
+
+if (false) {
+
+  System.out.println("Hello World!");
+
+}
+
+If the condition is false, the code does not run.
+This code is also called if-then statements: if condition is true, then do something

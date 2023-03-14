@@ -1,0 +1,20 @@
+If-Then-Else
+
+What if there are two possible lines of code we'd like to execute?
+We can create an alternate conditional branch with the else keyword:
+if (hasPrerequisite) {
+
+  // Enroll in course
+
+} else {
+
+  // Enroll in prerequisite
+
+}
+
+This conditional statement ensures that exactly one code of block will be run. if the condition, hasPrerequisite is false, the block after else runs.
+
+There are now two separate code blocks in our conditional statement. The first block runs if the condition evaluates to true, the second block runs if the condition evaluates to false.
+This code is also called if-then-else statement:
+- if condition is true, then do something
+- else, do a different thing

@@ -1,0 +1,26 @@
+Logical NOT: !
+
+The unary operator NOT ! works on a single value. This operator evaluates to the opposite boolean to which it's applied:
+!false
+// true
+!true
+// false
+
+NOT us useful for expressing our intent clearly in programs. For example, sometimes we need the opposite behavior of an if-then: run a code only if the condition is false:
+boolean hasPrerequisite = false;
+
+if (hasPrerequisite) {
+  // do nothing
+} else {
+  System.out.println("Must complete prerequisite course!");
+}
+
+This code does what we want but it's strange to hae a code block that does nothing!
+The logical NOT operator cleans the example:
+boolean hasPrerequisite = false;
+
+if (!hasPrerequisite) {
+  System.out.println("Must complete prerequisite course!");
+}
+
+We can write a succint conditional statement without an empty code block.
