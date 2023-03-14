@@ -28,4 +28,25 @@ Enjoy!
 
 Note that when we call on a method with multiple parameters, the arguments given in the call must be placed in the same order as the parameters appear in the signature. If the argumnt types do not match the parameter types, we'll receive an error.
 
-*
+*Through method overloading, our Java programs can contain multiple methods with the same name as long as each method's parameter list is unique. for example, we can recreate our above program to contain two startRadio() methods:
+// Method 1
+public void startRadio(double stationNum, String stationName) {
+  System.out.println("Turning on the radio to " + stationNum + ", " + stationName + "!");
+  System.out.println("Enjoy!");
+}
+
+// Method 2
+public void startRadio(double stationNum) {
+  System.out.println("Turning on the radio to " + stationNum + "!");
+}
+
+public static void main(String[] args){
+  Car myCar = new Car("red");
+  // Calls the first startRadio() method
+  myCar.startRadio(103.7, "Meditation Station");
+
+  // Calls the second startRadio() method
+  myCar.startRadio(98.2);
+}
+
+
