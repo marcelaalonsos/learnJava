@@ -1,0 +1,23 @@
+For Loops
+
+Incrementing with loops is actually so common in programming that Java includes syntax to address this pattern: for loop
+A for loop header header is made up of the following three parts, each separated by a semicolon:
+1. the initialization of the loop control variable
+2. a boolean expression
+3. an increment or decrement statement
+
+for (int i = 0; i < 5; i++) {
+
+  // code that will run
+
+}
+
+In a for loop, an initialization statement is run once in order to initialize the loop control variable.
+This variable is modified in every iteration, can be referenced in the loop body, and used to test the boolean condition.
+
+Let's breakdown the example above:
+1. i = 0: i is initilized to 0
+2. i < 5: the loop is given a boolean condition that relies on the value of i. the loop will continue to execute until i < 5 is false
+3. i++: i will increment at the end of each loop and before the condition is re-evaluated.
+
+the code will run through the loop a total of 5 times.

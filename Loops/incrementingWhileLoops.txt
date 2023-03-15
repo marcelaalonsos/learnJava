@@ -1,0 +1,30 @@
+Incrementing While Loops
+
+When looping through code, it's common to use a counter variable.
+A counter, is a variable used in the conditional logic of the loop and usually incremented in value during each iteration through the code.
+// counter is initialized
+int wishes = 0;
+
+// conditional logic uses counter
+while (wishes < 3) {
+
+  System.out.println("Wish granted.");
+  // counter is incremented
+  wishes++;
+
+}
+
+In the example, the counter wishes gets initialized before the loop with a value of 0, then the program will keep printing "wish granted" and adding 1 to wishes, as long as wishes has a value of less than 3.
+Once wishes reached a value of 3 or more, the program will exit the loop.
+
+You can also decrement counters:
+int pushupsToDo = 10;
+
+while (pushupsToDo > 0) {
+
+  doPushup();
+  pushupsToDo--;
+
+}
+
+the counter pushupsToDo starts at 10, and decrements one at a time. when it hits 0, the loop exits.

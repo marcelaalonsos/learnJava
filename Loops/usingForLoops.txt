@@ -1,0 +1,16 @@
+Using for Loops
+
+It's important to be aware that, if we don't create the correct for loop header, we can cause the iteration to loop one too many or one too few times, this occurrance is known as an "off by one" error.
+
+Imagine we wanted to find the sum of the first 10 numbers:
+int sum = 0;
+for (int i = 0; i < 10; i++) {
+  sum += i
+}
+
+This code will produce an incorrect value of 45.
+We skipped adding 10 to sum because our loop control variable started with a value of 0 and stopped the iteration after it had a value of 9.
+We could fix this by changing the condition of our loop to be i <= 10 or i < 11
+These are called logical errors -the code runs fine but it did not do what you expected it to do.
+
+
